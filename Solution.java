@@ -4,7 +4,10 @@ import java.util.*;
 public class Solution {
 public static void main(String s[])
 {
-System.out.println(islsomorphic("kskkytt","msmmivv"));
+	Scanner s=new Scanner(System.in);
+	String s1=s.next();
+	String s2=s.next();
+System.out.println(islsomorphic(s1,s2));
 }
 
 public static boolean islsomorphic(String s, String t)
