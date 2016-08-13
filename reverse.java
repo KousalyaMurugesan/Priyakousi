@@ -4,7 +4,8 @@ public class reverse
 {
 public static void main(String[] args)
   {
-	String s1="VowelsRemoved";
+  	Scanner s=new Scanner(System.in);
+	String s1=s.next();
 	System.out.println(s1);
 	StringBuffer str=new StringBuffer(s1);
 	str=str.reverse();
